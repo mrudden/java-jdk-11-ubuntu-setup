@@ -60,3 +60,14 @@ sudo update-alternatives --set javadoc /usr/lib/jvm/jdk-11.0.9/bin/javadoc
 ## Further reading
 - [What exactly does `update-alternatives` do?](https://askubuntu.com/questions/233190/what-exactly-does-update-alternatives-do)
 - [Ubuntu update-alternatives manpages](https://manpages.ubuntu.com/manpages/focal/en/man1/update-alternatives.1.html)
+
+## FAQ
+Q1: Why didn't I just install openjdk with apt-get?
+
+A1: It's for a class that's structured around the Oracle JDK. We were provided instructions for Windows and Mac, and I wanted to use [Ubuntu on WSL2](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available) in the new [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) instead. I didn't want to accidentally introduce incompatibilities with the course content by using a different distribution of the JDK.
+
+
+
+Q2: How can I learn more about setting up WSL2?
+
+A2: Check out Microsoft's website - [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
