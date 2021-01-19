@@ -1,0 +1,40 @@
+15  cd .wsl-stash/
+16  ls
+17  dpkg -i jdk-11.0.9_linux-x64_bin.deb
+18  sudo dpkg -i jdk-11.0.9_linux-x64_bin.deb
+19  java
+20  ls
+21  cd ~
+22  ls
+23  sl -a
+24  ls -a
+25  cd /usr/bin/
+26  ls
+27  cd /usr/lib/jvm
+28  ls
+29  cd jdk-11.0.9/
+30  ls
+31  cat README.html
+32  ls -a
+33  cd bin/
+34  ls
+35  java
+36  ./java
+37  ./java --version
+38  ls /usr/bin/java
+39  cd /usr/bin/
+40  ls
+41  sudo update-alternatives
+42  sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.9/bin/java
+43  sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.9/bin/java 1
+44  sudo update-alternatives --config java
+45  java
+46  la /usr/bin/jar
+47  sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-11/bin/jar 1
+48  sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-11.0.9/bin/jar 1
+49  sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.9/bin/javac 1
+50  javac
+51* ja
+52  sudo update-alternatives --set jar /usr/lib/jvm/jdk-11.0.9/bin/jar
+53  sudo update-alternatives --set javac /usr/lib/jvm/jdk-11.0.9/bin/javac
+54  history
