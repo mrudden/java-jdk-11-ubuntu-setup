@@ -72,3 +72,7 @@ What I needed to do to setup the Java JDK on Ubuntu (currently running in WSL2 o
 - Q: How can I learn more about setting up WSL2?
 
   - A: Check out Microsoft's website - [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+  
+- Q: Where'd that raw_history.txt file come from?
+
+  - A: I ran `history` on the Ubuntu command line and copied and pasted some of the output into that file.
